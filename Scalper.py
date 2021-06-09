@@ -25,5 +25,7 @@ while not buyButton:
 
     except:
         addToCartBtn = addButton = browser.find_element_by_class_name("btn-primary")
+        print("button was clicked")
+        addToCartBtn.click()
         
 

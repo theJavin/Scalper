@@ -37,12 +37,3 @@ try:
 except:
   browser.quit()
 
-try:
-  checkoutBtn = addButton = browser.find_element_by_class_name("btn-lg")
-  checkoutBtn.click
-  print("Checking out!")
-  time.sleep(2)
-
-except:
-  browser.quit()
-

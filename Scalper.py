@@ -8,8 +8,10 @@ browser = webdriver.Chrome('/home/particle/Documents/Mcprojects/Scalper/chromedr
 
 # Bestbuy 3070 ti page
 # https://www.bestbuy.com/site/nvidia-geforce-rtx-3070-ti-8gb-gddr6x-pci-express-4-0-graphics-card-dark-platinum-and-black/6465789.p?skuId=6465789
+#Bestbuy 3080 page
+#https://www.bestbuy.com/site/nvidia-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-graphics-card-titanium-and-black/6429440.p?skuId=6429440
 
-browser.get("https://www.bestbuy.com/site/apple-airpods-pro-white/5706659.p?skuId=5706659")
+browser.get("https://www.bestbuy.com/site/nvidia-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-graphics-card-titanium-and-black/6429440.p?skuId=6429440")
 
 buyButton = False
 

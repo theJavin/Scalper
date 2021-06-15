@@ -20,8 +20,9 @@ while not buyButton:
       addToCartBtn = addButton = browser.find_element_by_class_name("btn-disabled")
       print("Card not available.")
       print("refreshing...")
-      time.sleep(1)  
       browser.refresh()
+      time.sleep(1)  
+      
 
   except:
     addToCartBtn = addButton = browser.find_element_by_class_name("btn-primary")
